@@ -85,7 +85,7 @@ body {
   }
 }
 
-.main-container {
+*/ .main-container {
   width: 100%;
   padding: 4rem 1rem;
   /* background-color: #86ec8a; */
