@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div data-testid="main-container" class="main-container">
+      <nav data-testid="nav" class="nav">
+        <div data-testid="brand" class="brand">Vincy</div>
+        <div data-testid="menu" class="menu">
+          <a href="#">About</a>
+          <a href="#">Skills</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+      <div data-testid="bio-container">
+        <div>
+          <h1 data-testid="slackDisplayName">Max Vincent</h1>
+          <p data-testid="bio">
+            Passionate about web development and eager to learn new
+            technologies. Currently focusing on mastering frontend web
+            development and contributing to open-source projects. Feel free to
+            connect with me through my email
+          </p>
+          <p data-testid="slackEmail">kelechivincy@gmail.com</p>
+        </div>
+
+        <div data-testid="profile-photo" class="profile-photo">
+          <div data-testid="image-div">
+            <img
+              src="./image/profile.jpg"
+              alt="Profile Photo"
+              data-testid="slackProfilePicture"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <section data-testid="goal-section">
+      <h2 data-testid="goal-title">Goals in the Next two years</h2>
+      <ul data-testid="goal-list">
+        <li data-testid="goal-1">
+          Master Frontend development and its frameworks like React and Node.js.
+        </li>
+        <li data-testid="goal-2">Contribute to open-source projects.</li>
+        <li data-testid="goal-3">
+          Land a well paying job.
+        </li>
+        <li data-testid="goal-4">
+          Gain proficiency in cloud platforms like AWS and Azure.
+        </li>
+        <li data-testid="goal-5">Achieve certification in cybersecurity.</li>
+      </ul>
+    </section>
+    <footer data-testid="footer">
+      <div class="time-container">
+        <div data-testid="currentTimeUTC" id="currentTimeUTC"></div>
+        <div data-testid="currentDay" id="currentDay"></div>
+      </div>
+      <p>&copy; 2024 My Tech Journey</p>
+
+      <a href=" hng.tech/learn" data-testid="hngLink">hng.tech</a>
+      <a href="keyword.dog" data-testid="scrapeanywebLink">keyword.dog</a>
+      <a href=" scrapeanyweb.site" data-testid="scrapeanywebLink"
+        >scrapeanyweb.site</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
